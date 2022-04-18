@@ -1,4 +1,4 @@
-package not4u
+package dig
 
 import "fmt"
 
