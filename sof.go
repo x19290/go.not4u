@@ -1,11 +1,11 @@
 package sof
 
 import (
-	"github.com/x19290/sof/nested"
+	"github.com/x19290/sof/child"
 )
 
 func three() int {
-	return one() + nested.Two()
+	return one() + child.Two()
 }
 
 func Three() int {
