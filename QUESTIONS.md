@@ -1,6 +1,6 @@
 # Questions to Stack Overflow
 
-## 2022-04-20
+## 2022-04-19
 
 Subject: publishing a nested module -- publishing or importing is wrong
 
@@ -19,6 +19,15 @@ And from a local neighbor of sof (../sofmain), I can do `go run .`
 But I can not import real github.com/x19290/sof from sofmain.
 I removed `replace` and `require` lines from go.mod
 and did `go mod tidy`; then I saw a message:
+----
+go: finding module for package github.com/x19290/sof
+go: downloading github.com/x19290/sof v0.0.0-20220419113017-ba6f96ec4670
+go: found github.com/x19290/sof in github.com/x19290/sof v0.0.0-20220419113017-ba6f96ec4670
+go: downloading github.com/x19290/sof/child v0.0.0-00010101000000-000000000000
+sofmain imports
+	github.com/x19290/sof imports
+	github.com/x19290/sof/child: github.com/x19290/sof/child@v0.0.0-00010101000000-000000000000: invalid version: unknown revision 000000000000
+----
 
 The contents of sof/sofmain are as follows:
 
