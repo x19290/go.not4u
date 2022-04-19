@@ -1,7 +1,7 @@
 package anyid
 
 import (
-	two "example.com/x19290/go.not4u/2"
+	two "github.com/x19290/go.not4u/2"
 )
 
 func three() int {
