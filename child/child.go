@@ -1,4 +1,4 @@
-package child
+package foo
 
 func Two() int {
 	return 2
