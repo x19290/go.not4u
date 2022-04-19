@@ -1,6 +1,6 @@
 # Questions to Stack Overflow
 
-## 2022-04-19
+## 2022-04-20
 
 Subject: publishing a nested module -- publishing or importing is wrong
 
@@ -19,8 +19,6 @@ And from a local neighbor of sof (../sofmain), I can do `go run .`
 But I can not import real github.com/x19290/sof from sofmain.
 I removed `replace` and `require` lines from go.mod
 and did `go mod tidy`; then I saw a message:
-----
-----
 
 The contents of sof/sofmain are as follows:
 

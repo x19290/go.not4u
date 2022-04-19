@@ -4,10 +4,10 @@ import (
 	"github.com/x19290/sof/child"
 )
 
-func four() int {
-	return one() + one() + child.Two()
+func three() int {
+	return one() + child.Two()
 }
 
-func Four() int {
-	return four()
+func Three() int {
+	return three()
 }

@@ -6,5 +6,5 @@ import (
 )
 
 func Test(t *testing.T) {
-	assert.Equal(t, 4, Four())
+	assert.Equal(t, 3, three())
 }
