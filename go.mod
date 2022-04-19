@@ -2,11 +2,9 @@ module github.com/x19290/sof
 
 go 1.18
 
-replace github.com/x19290/sof/nested => ./nested
-
 require (
 	github.com/stretchr/testify v1.7.1
-	github.com/x19290/sof/nested v0.0.0-00010101000000-000000000000
+	github.com/x19290/sof/nested v0.0.0-20220419233935-898f6f1c3614
 )
 
 require (
