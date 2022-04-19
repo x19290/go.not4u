@@ -2,11 +2,11 @@ module github.com/x19290/sof
 
 go 1.18
 
-replace github.com/x19290/sof/child v0.0.2 => ./child
+replace github.com/x19290/sof/child v0.0.0 => ./child
 
 require (
 	github.com/stretchr/testify v1.7.1
-	github.com/x19290/sof/child v0.0.2
+	github.com/x19290/sof/child v0.0.0-00010101000000-000000000000
 )
 
 require (
