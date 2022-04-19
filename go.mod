@@ -4,7 +4,7 @@ go 1.18
 
 replace github.com/x19290/go.not4u/2 => ./2
 
-require github.com/x19290/go.not4u/2 v0.0.0-00010101000000-000000000000
+require github.com/x19290/go.not4u/2 v0.1.2
 
 require (
 	github.com/davecgh/go-spew v1.1.0 // indirect
