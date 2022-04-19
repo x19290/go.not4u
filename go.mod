@@ -2,7 +2,7 @@ module github.com/x19290/sof
 
 go 1.18
 
-replace github.com/x19290/sof/child => ./child
+replace github.com/x19290/sof/child v0.0.3 => ./child
 
 require (
 	github.com/stretchr/testify v1.7.1
