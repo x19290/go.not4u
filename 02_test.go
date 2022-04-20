@@ -1,4 +1,4 @@
-package sof
+package parent
 
 import (
 	"github.com/stretchr/testify/assert"
