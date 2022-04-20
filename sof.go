@@ -1,13 +1,13 @@
 package sof
 
 import (
-	"github.com/x19290/sof/nested"
+	"github.com/x19290/sof/child"
 )
 
-func three() int {
-	return one() + nested.Two()
+func five() int {
+	return two() + child.Three()
 }
 
-func Three() int {
-	return three()
+func Five() int {
+	return five()
 }

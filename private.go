@@ -1,5 +1,5 @@
 package sof
 
-func one() int {
-	return 1
+func two() int {
+	return 2
 }
