@@ -1,7 +1,7 @@
 package sof
 
 import (
-	"github.com/x19290/sof/child"
+	"github.com/x19290/go.not4u/child"
 )
 
 func private() string {
