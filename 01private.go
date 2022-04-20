@@ -1,9 +1,9 @@
 package not4u
 
 import (
-	child "github.com/x19290/go.not4u/1nested"
+	b "github.com/x19290/go.not4u/1testdata"
 )
 
 func private() string {
-	return child.Public()
+	return b.Public()
 }

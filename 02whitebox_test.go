@@ -2,9 +2,10 @@ package not4u
 
 import (
 	"github.com/stretchr/testify/assert"
+	. "github.com/x19290/go.not4u/1testdata"
 	"testing"
 )
 
 func Test(t *testing.T) {
-	assert.Equal(t, "0.4.1", private())
+	assert.Equal(t, Version, private())
 }
