@@ -1,4 +1,4 @@
-package not4u
+package simplest
 
 func Public() string {
 	return private()

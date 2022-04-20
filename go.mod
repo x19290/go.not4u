@@ -1,3 +1,3 @@
-module github.com/x19290/go.not4u
+module github.com/x19290/go.simplest-mod
 
 go 1.18
