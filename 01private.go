@@ -1,7 +1,7 @@
 package parent
 
 import (
-	"github.com/x19290/go.not4u/child"
+	child "github.com/x19290/go.not4u/1child"
 )
 
 func private() string {
