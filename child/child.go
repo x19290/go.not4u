@@ -1,5 +1,5 @@
 package child
 
-func Two() int {
-	return 2
+func Three() int {
+	return 3
 }
