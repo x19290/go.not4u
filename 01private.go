@@ -5,5 +5,5 @@ import (
 )
 
 func private() string {
-	return b.Public()
+	return b.Version
 }
