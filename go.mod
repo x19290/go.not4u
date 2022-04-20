@@ -2,12 +2,9 @@ module github.com/x19290/sof
 
 go 1.18
 
-replace github.com/x19290/sof/child => ./child
+// replace github.com/x19290/sof/child => ./child
 
-require (
-	github.com/stretchr/testify v1.7.1
-	github.com/x19290/sof/child v0.0.0-20220420011424-a903431c1092
-)
+require github.com/stretchr/testify v1.7.1
 
 require (
 	github.com/davecgh/go-spew v1.1.0 // indirect
