@@ -1,4 +1,4 @@
-package parent
+package not4u
 
 import (
 	"github.com/stretchr/testify/assert"
@@ -6,5 +6,5 @@ import (
 )
 
 func Test(t *testing.T) {
-	assert.Equal(t, "a", private())
+	assert.Equal(t, "abc", private())
 }
